@@ -1,0 +1,14 @@
+dash
+dash-auth
+dash-bootstrap-components<1
+dash-core-components
+dash-html-components
+dash-table
+Flask
+Jinja2
+numpy
+openpyxl
+pandas
+plotly
+mysql-connector-python
+scikit-learn
