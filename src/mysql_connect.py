@@ -1,11 +1,14 @@
 import mysql.connector as mysql
 import pandas as pd
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 connection = mysql.connect(
-    host='localhost',
+    host=os.getenv("host"),
     user='root',
-    password='codeB@12j',
-    database='windpower',
+    password=os.getenv("password"),
+    database=os.getenv('database'),
     auth_plugin='mysql_native_password'
 )
 

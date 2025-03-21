@@ -1,35 +1,48 @@
-# Predicting the Energy Output of Wind Turbine Based on Weather Conditions
+# PEOWT - Power Generation
 
-### Project Details
+## Project Overview
 
-- The purpose of the project is to predict the electricity output based on the rotating speed of the wind turbines; here we get the output based on the previous data. In this we have two independent variables LV Active Power, Wind Speed and two dependent variable Theoretical Power and wind direction. For that we use one of the regression algorithms like polynomial regression and predict the output by using r2_score. In this we train the model with the previous data and test the data by giving the independent variables and predicting whether it is giving expected output or not. We use a node red for deploying the nodes, we used http request, timestamp, for sending the message we used message payload, for power detection we used theoretical power, inputs as Active Power and Wind Speed and to implement the user interface. There are two steps in the process of wind power prediction. In the first step raw data is collected by the power plant information system and is filtered. This prepares a valid data to be used for building a prediction model. In the second step we use all the regression algorithms to build a model to predict the wind power. It is to achieve a high accuracy with respect to the measured data.
+This project focuses on predicting the electrical energy output of wind turbines using historical weather data and turbine operational parameters. Accurate prediction of wind energy output is crucial for efficient grid management, energy trading, and optimizing wind farm operations. This project leverages machine learning techniques to build a predictive model that can forecast energy generation based on real-time and historical data.
 
-### Wind Energy Dataset Download:
+## Key Objectives
 
----
+- **Predict Energy Output:** Develop a model to accurately predict the energy output (Active Power) of wind turbines.
+- **Utilize Weather Data:** Incorporate weather variables like wind speed and wind direction as key predictors.
+- **Leverage Turbine Data:** Utilize turbine operational data, such as the turbine's theoretical power curve, to enhance prediction accuracy.
+- **Model Evaluation:** Employ regression algorithms, such as polynomial regression, and evaluate model performance using metrics like R-squared (R2 score).
+- **Deployment:** Demonstrate a basic deployment strategy using Node-RED for data processing and visualization.
 
-- https://data.open-power-system-data.org/time_series/
-- https://www.elia.be/en/grid-data/power-generation
-- https://data.open-power-system-data.org/weather_data/
+## Technical Details
 
-### Donate & Support us:
+- **Independent Variables:**
+  - Wind Speed
+  - LV Active Power (Low Voltage Active Power)
+- **Dependent Variables:**
+  - Theoretical Power
+  - Wind Direction
+- **Tools and Technologies:**
+  - Python (for data analysis, model building, and evaluation)
+  - Regression Algorithms (e.g., Polynomial Regression)
+  - Node-RED (for data flow management, basic deployment, and user interface)
+  - HTTP Request, Timestamp, Message Payload (within Node-RED)
 
----
+## Dataset Sources
 
-- https://www.paypal.com/paypalme/bhavikjikadara
+- **Open Power System Data:** [https://data.open-power-system-data.org/time_series/](https://data.open-power-system-data.org/time_series/)
+- **Elia Grid Data:** [https://www.elia.be/en/grid-data/power-generation](https://www.elia.be/en/grid-data/power-generation)
+- **Open Power System Weather Data:** [https://data.open-power-system-data.org/weather_data/](https://data.open-power-system-data.org/weather_data/)
 
-### Follow:
+## Support the Project
 
----
+If you find this project valuable, consider supporting its development:
 
-- Linkedin Link: https://www.linkedin.com/in/bhavikjikadara
-- Github Link: https://github.com/Bhavik-Jikadara
-- Facebook Link: https://www.facebook.com/Bhavikjikadara07
-- Instagram Link: https://www.instagram.com/bhavikjikadara/
-- twitter Link: https://twitter.com/BhavikJikadara1
+- **Support:** [https://www.paypal.com/paypalme/bhavikjikadara](https://www.paypal.com/paypalme/bhavikjikadara)
 
-### Subscribe:
+## Connect with the Author
 
----
-
-- https://www.youtube.com/channel/UC7Bp_sYQmAryrrPqvUp6PwQ
+- **LinkedIn:** [https://www.linkedin.com/in/bhavikjikadara](https://www.linkedin.com/in/bhavikjikadara)
+- **GitHub:** [https://github.com/Bhavik-Jikadara](https://github.com/Bhavik-Jikadara)
+- **Facebook:** [https://www.facebook.com/Bhavikjikadara07](https://www.facebook.com/Bhavikjikadara07)
+- **Instagram:** [https://www.instagram.com/bhavikjikadara/](https://www.instagram.com/bhavikjikadara/)
+- **Twitter:** [https://twitter.com/BhavikJikadara1](https://twitter.com/BhavikJikadara1)
+- **YouTube:** [https://www.youtube.com/channel/UC7Bp_sYQmAryrrPqvUp6PwQ](https://www.youtube.com/channel/UC7Bp_sYQmAryrrPqvUp6PwQ)

@@ -12,3 +12,9 @@ pandas
 plotly
 mysql-connector-python
 scikit-learn
+matplotlib
+tensorflow
+keras
+python-dotenv
+seaborn
+xgboost
